@@ -1,0 +1,52 @@
+h1 {
+    font-weight: 400;
+    font-size: 100px;
+  text-align: center;
+  
+}
+form {
+    display: flex;
+   
+   justify-content: center;
+   padding: 20px;
+   flex-wrap: wrap;
+   font-style: inherit;
+ 
+}
+label {
+  font-weight: 200px;
+  font-size: 50px;
+
+}
+input[type="number"] {
+  align-self: baseline;
+ font-weight: 500;
+ padding: 10px 20px;
+ margin: 10px 5px 10px 5px;
+ border: #fff;
+ border-radius: 20px;
+
+ font-size: 40px;
+
+}
+body{
+  background-image: url('./image/pngtree-taobao-classroom-learning-minimalistic-texture-poster-background-picture-image_1058108.jpg');
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: 50px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
